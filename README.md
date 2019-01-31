@@ -5,7 +5,8 @@ Makes a React-flavored JavaScript PWA out of an existing WordPress site.
 
 ## 🚧 Build
 `npm install`
-Edit ./gatsby-config.js with:
+
+Edit `./gatsby-config.js` with:
 - _URL of WordPress site_
 - _root WordPress username_
 - _root password_
@@ -13,7 +14,15 @@ Edit ./gatsby-config.js with:
 
 ## 🎢 Use
 `npm run start`
+
 Open `http://localhost:8000/`
+
+
+## 📦 Deploy
+`npm run build`
+`surge public/`
+
+[(Install docs for surge hosting platform.)](https://github.com/surge-sh)
 
 ## 🔓 MIT License
 
