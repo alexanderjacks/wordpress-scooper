@@ -31,8 +31,8 @@ Open `http://localhost:8000/`
 Customize these files:
 - `src/components/all.sass`
 - `src/images/logo.svg`
-- add (plugins)[https://www.gatsbyjs.org/docs/plugins/] to `src/utils`
--- add (plugins)[https://www.gatsbyjs.org/docs/plugins/] to `./gatsby-config.js`
+- add [plugins](https://www.gatsbyjs.org/docs/plugins/) to `src/utils`
+-- add [plugins](https://www.gatsbyjs.org/docs/plugins/) to `./gatsby-config.js`
 
 ## 🔓 MIT License
 
