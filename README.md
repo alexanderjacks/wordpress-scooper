@@ -12,6 +12,7 @@ Edit `./gatsby-config.js` with:
 - _root password_
 - Save these changes.
 
+
 ## 🎢 Use
 `npm run start`
 
@@ -20,9 +21,18 @@ Open `http://localhost:8000/`
 
 ## 📦 Deploy
 `npm run build`
+
 `surge public/`
 
 [(Install docs for surge hosting platform.)](https://github.com/surge-sh)
+
+## 🏁 Finishing touches
+
+Customize these files:
+- `src/components/all.sass`
+- `src/images/logo.svg`
+- add (plugins)[https://www.gatsbyjs.org/docs/plugins/] to `src/utils`
+-- add (plugins)[https://www.gatsbyjs.org/docs/plugins/] to `./gatsby-config.js`
 
 ## 🔓 MIT License
 
