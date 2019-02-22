@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby WordPress Scraper`,
-    description: `Scrape your WordPress instance or site into Gatsby and wow yourself.`,
-    author: `OpenSource`,
+    title: `Minority Vets`,
+    description: `Connect. Understand. Serve.`,
+    author: `lkmc`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,7 +21,7 @@ module.exports = {
          * The base URL of the Wordpress site without the trailingslash and the protocol. This is required.
          * Example : 'gatsbyjswpexample.wordpress.com' or 'www.example-site.com'
          */
-        baseUrl: `www.yourancientwordpressblog.com`,
+        baseUrl: `www.minorityvets.org`,
         // The protocol. This can be http or https.
         protocol: `http`,
         // Indicates whether the site is hosted on wordpress.com.
@@ -42,8 +42,8 @@ module.exports = {
         auth: {
           // If auth.user and auth.pass are filled, then the source plugin will be allowed
           // to access endpoints that are protected with .htaccess.
-          htaccess_user: "WP_root_username",
-          htaccess_pass: "WP_root_password",
+          htaccess_user: "x",
+          htaccess_pass: "x",
           htaccess_sendImmediately: false,
 
           // If hostingWPCOM is true then you will need to communicate with wordpress.com API
@@ -101,12 +101,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Minority Vets of America`,
+        short_name: `MVA`,
         start_url: `/`,
-        background_color: `#f0f`,
-        theme_color: `#0ff`,
-        display: `minimal-ui`,
+        background_color: `#04476d`,
+        theme_color: `#f15d4e`,
+        display: `standalone`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
@@ -116,8 +116,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography.js`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
   ],
 }
